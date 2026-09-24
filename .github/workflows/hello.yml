@@ -7,6 +7,6 @@ jobs:
   strategy:
    matrix:
     number: [1,2,3]
-  sreps:
+  steps:
    - name: Print number
      run: echo "this is run number ${{ matrix.number }}"
